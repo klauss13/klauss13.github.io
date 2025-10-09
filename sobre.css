@@ -1,64 +1,74 @@
-body
-{
-    width: 700px;
-    margin-left: auto;
-    margin-right: auto;
-    font-family: "Arial", "Helvetica", "sans-serif";
-    color: white;
-    background-color: black;
-}
- 
-h1{
-    padding: 10px;
-    background-color: blueviolet;
-    display: inline-block;
+body {
+  width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: "Arial", "Helvetica", "sans-serif";
+  color: white;
+  background-color: black;
 }
 
-h2{
-    border-bottom: 2px solid white;
+h1 {
+  padding: 10px;
+  background-color: blueviolet;
+  display: inline-block;
 }
 
-figure{
-    margin: 50px;
-    padding: 30px;
-    text-align: center;
-    background-color: blueviolet;
-    border: 10px solid black;
+h2 {
+  border-bottom: 2px solid white;
 }
 
-img{
-    width: 600px;
+figure {
+  margin: 50px;
+  padding: 30px;
+  text-align: center;
+  background-color: blueviolet;
+  border: 10px solid black;
 }
 
-.zoio
-{
-    width: 550px;
-    margin-left: auto;
-    margin-right: auto;
+img {
+  width: 600px;
+}
+
+.zoio {
+  width: 550px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 iframe {
-    width: 800px ;
-    margin-left: auto;
-    margin-right: auto;
+  width: 800px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
-button{
-color: blueviolet;
-font-size: large;
+button {
+  color: blueviolet;
+  font-size: large;
+  float: inline-start;
 }
 
-figcaption{
-font-size: x-large;
-font-family: Arial, Helvetica, sans-serif;
-margin-left: auto;
-margin-right: auto;
+figcaption {
+  font-size: x-large;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-left: auto;
+  margin-right: auto;
 }
 
-.seta{
-    display: inline;
-    float: left;
-    width: 200px;
-    position: relative;
-    margin-left: 0px;
+.seta {
+  display: inline;
+  float: left;
+  width: 200px;
+  position: relative;
+  margin-left: 0px;
+}
+
+textarea {
+  font-size: small;
+  position: absolute;
+  left: 60%;
+}
+
+th {
+  float: left;
+  float: inline-start;
 }
