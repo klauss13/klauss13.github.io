@@ -1,75 +1,161 @@
 body {
   width: 80%;
   max-width: 800px;
-  margin-left: auto;
-  margin-right: auto;
-  font-family: "Arial", "Helvetica", "sans-serif";
-  color: white;
-  background-color: black;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: "Segoe UI", "Verdana", "Trebuchet MS", "Arial", sans-serif;
+  color: #f0f0f0;
+  background-color: #121212;
+  line-height: 1.6;
+  text-align: center;
 }
 
+
 h1 {
-  padding: 10px;
-  background-color: blueviolet;
-  display: inline-block;
+  margin: 0 auto;
+  text-align: center;
+  background-color: #8a2be2; /* Fundo roxo */
+  color: white;
+  padding: 15px 25px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(138, 43, 226, 0.5);
+  font-size: 2em;
 }
 
 h2 {
-  border-bottom: 2px solid white;
+  margin-top: 30px;
+  padding: 10px;
+  background-color: #8a2be2; 
+  color: #f0f0f0;
+  border-radius: 6px;
+  font-size: 1.5em;
+  text-align: center;
 }
 
-figure {
-  margin: 50px;
-  padding: 30px;
-  text-align: center;
-  background-color: blueviolet;
-  border: 10px solid black;
+ul {
+  list-style-position: inside;
+  padding-left: 0;
+  margin-top: 20px;
+  text-align: left;
+  display: inline-block;
+}
+
+li {
+  margin-bottom: 10px;
 }
 
 img {
-  width: 600px;
+  display: block;
+  margin: 0 auto;
+  width: 100%;
+  max-width: 600px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.2);
 }
 
 .zoio {
-  width: 550px;
-  margin-left: auto;
-  margin-right: auto;
+  display: block;
+  width: 100%;
+  max-width: 550px;
+  margin: 20px auto;
 }
 
 iframe {
-  width: 800px;
-  margin-left: auto;
-  margin-right: auto;
+  display: block;
+  margin: 40px auto;
+  width: 100%;
+  max-width: 800px;
+  height: 450px;
+  border: none;
+  box-shadow: 0 0 15px rgba(255, 255, 255, 0.2);
 }
 
 button {
-  color: blueviolet;
-  font-size: large;
-  float: inline-start;
+  background-color: #8a2be2;
+  color: white;
+  font-size: 1em;
+  padding: 10px 20px;
+  margin: 10px 5px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #a64bf2;
+}
+
+button a {
+  color: white;
+  text-decoration: none;
 }
 
 figcaption {
-  font-size: x-large;
-  font-family: Arial, Helvetica, sans-serif;
-  margin-left: auto;
-  margin-right: auto;
+  font-size: 1.2em;
+  margin-top: 10px;
 }
 
 .seta {
-  display: inline;
-  float: left;
-  width: 200px;
-  position: relative;
-  margin-left: 0px;
+  position: fixed;
+  top: 15px;
+  left: 15px;
+  width: 40px;
+  height: auto;
+  z-index: 1000;
 }
 
 textarea {
-  font-size: small;
+  font-size: 0.9em;
   position: absolute;
   left: 60%;
+  background-color: #222;
+  color: white;
+  border: 1px solid #555;
+  padding: 10px;
+  border-radius: 6px;
 }
 
 th {
   float: left;
-  float: inline-start;
+}
+
+@media (max-width: 850px) {
+  .zoio {
+    margin-left: 1em;
+  }
+
+  iframe {
+    height: 300px;
+  }
+
+  h1 {
+    font-size: 1.5em;
+  }
+
+  h2 {
+    font-size: 1.2em;
+  }
+
+  button {
+    font-size: 0.9em;
+    padding: 8px 16px;
+  }
+}
+.seta {
+  position: fixed;
+  top: 15px;
+  left: 15px;
+  width: 40px;
+  height: auto;
+  z-index: 1000;
+}
+
+.logo {
+  position: fixed;
+  top: 15px;
+  left: 65px; 
+  width: 60px;
+  height: auto;
+  z-index: 999;
 }
